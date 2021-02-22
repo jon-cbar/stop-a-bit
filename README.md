@@ -7,6 +7,8 @@ This application is an example created during the [Next Level Week #4](https://n
 
 ## Technologies
 
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [HTML](https://developer.mozilla.org/docs/Web/HTML)
 - [React](https://reactjs.org)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Yarn](https://yarnpkg.com/)
