@@ -3,7 +3,7 @@
 **Stop a Bit** is an application to remind people that they need to stop hard work and get some rest.
 It uses a technique called [Gamification](https://en.wikipedia.org/wiki/Gamification) to encourage workers to stop.
 
-This application is an example created during the [\<nlw\/\> #4](https://nextlevelweek.com), an event promoted by the [Rocketseat](https://rocketseat.com.br/) team.
+This application is an example created during the [Next Level Week #4](https://nextlevelweek.com) promoted by the [Rocketseat](https://rocketseat.com.br/) team.
 
 ## Technologies
 
