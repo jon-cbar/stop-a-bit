@@ -33,7 +33,7 @@ git clone git@github.com:jon-cbar/stop-a-bit.git
 
 ```sh
 cd stop-a-bit
-npm install
+yarn
 yarn start
 ```
 
