@@ -26,7 +26,7 @@ This application is an example created during the [Next Level Week #4](https://n
 ### 3. Clone this repository
 
 ```sh
-git clone https://github.com/jon-cbar/stop-a-bit.git
+git clone git@github.com:jon-cbar/stop-a-bit.git
 ```
 
 ### 4. Start it
