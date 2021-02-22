@@ -30,5 +30,8 @@ git clone https://github.com/jon-cbar/stop-a-bit.git
 ### 4. Start it
 
 ```sh
+cd stop-a-bit
 yarn start
 ```
+
+Then, access `http://localhost:3000` on the browser.
