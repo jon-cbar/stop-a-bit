@@ -9,9 +9,10 @@ This application is an example created during the [Next Level Week #4](https://n
 
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [HTML](https://developer.mozilla.org/docs/Web/HTML)
+- [Next.js](https://nextjs.org)
 - [React](https://reactjs.org)
 - [TypeScript](https://www.typescriptlang.org/)
-- [Yarn](https://yarnpkg.com/)
+- [Yarn](https://yarnpkg.com)
 
 ## How to use
 
@@ -26,15 +27,17 @@ This application is an example created during the [Next Level Week #4](https://n
 ### 3. Clone this repository
 
 ```sh
-git clone git@github.com:jon-cbar/stop-a-bit.git
+git clone https://github.com/jon-cbar/stop-a-bit.git
 ```
 
 ### 4. Start it
 
+To run the development server:
+
 ```sh
 cd stop-a-bit
 yarn
-yarn start
+yarn dev
 ```
 
-Then, access `http://localhost:3000` on the browser.
+Then, open `http://localhost:3000` with your browser to see the result.
