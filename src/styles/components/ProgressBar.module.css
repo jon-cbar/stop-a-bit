@@ -1,0 +1,29 @@
+.progressBar {
+	display: flex;
+	align-items: center;
+}
+
+.progressBar span {
+	font-size: 1rem;
+}
+
+.progressBar > div {
+	flex: 1;
+	height: 6px;
+	border-radius: 6px;
+	background: var(--gray-light);
+	margin: 0 1.5rem;
+	position: relative;
+}
+
+.progressBar > div > div {
+	height: 6px;
+	border-radius: 6px;
+	background: var(--green);
+}
+
+span.currentProgress {
+	position: absolute;
+	top: 12px;
+	transform: translateX(-50%);
+}
