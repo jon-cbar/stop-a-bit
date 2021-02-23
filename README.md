@@ -1,5 +1,11 @@
 # Stop a Bit
 
+<p align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/jon-cbar/stop-a-bit?style=flat-square">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/jon-cbar/stop-a-bit?style=flat-square">
+  <img alt="GitHub" src="https://img.shields.io/github/license/jon-cbar/stop-a-bit?style=flat-square">
+</p>
+
 **Stop a Bit** is an application to remind people that they need to stop hard work and get some rest.
 It uses a technique called [Gamification](https://en.wikipedia.org/wiki/Gamification) to encourage workers to stop.
 
