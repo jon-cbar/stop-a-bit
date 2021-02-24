@@ -5,7 +5,8 @@ import Head from 'next/head';
 import { ProgressBar } from '../components/ProgressBar';
 import { Profile } from '../components/Profile';
 import { CompletedChallenges } from '../components/CompletedChallenges';
-import { CountDown } from '../components/CountDown';
+import { Timer } from '../components/Timer';
+import { ChallengeBox } from '../components/ChallengeBox';
 
 export default function Home() {
   return (
@@ -18,10 +19,10 @@ export default function Home() {
         <div>
           <Profile />
           <CompletedChallenges />
-          <CountDown />
+          <Timer />
         </div>
         <div>
-
+          <ChallengeBox />
         </div>
       </section>
     </ div>
