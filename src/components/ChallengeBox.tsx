@@ -1,9 +1,21 @@
 import { useContext } from 'react';
 import { ChallengesContext } from '../contexts/ChallengesContext';
+import { TimerContext } from '../contexts/TimerContext';
 import styles from '../styles/components/ChallengeBox.module.css';
 
 export function ChallengeBox() {
-    const { activeChallenge, resetChallenge } = useContext(ChallengesContext);
+    const { activeChallenge, resetChallenge, completeChallenge } = useContext(ChallengesContext);
+    const { restartTimer } = useContext(TimerContext);
+
+    function handleChallengeCompleted() {
+        completeChallenge();
+        restartTimer();
+    }
+
+    function handleChallengeFailed() {
+        resetChallenge();
+        restartTimer();
+    }
 
     return (
         <div className={styles.challengeBox}>
@@ -21,11 +33,12 @@ export function ChallengeBox() {
                         <footer>
                             <button type="button"
                                 className={styles.failButton}
-                                onClick={resetChallenge}>
+                                onClick={handleChallengeFailed}>
                                 Failed
                             </button>
                             <button type="button"
-                                className={styles.successButton}>
+                                className={styles.successButton}
+                                onClick={handleChallengeCompleted}>
                                 Completed
                             </button>
                         </footer>
@@ -35,7 +48,7 @@ export function ChallengeBox() {
                             <strong>Wait for the timer to receive challenges</strong>
                             <p>
                                 <img src='icons/level-up.svg' alt='Level Up' />
-                                Complete challenges to level up.
+                                <span>Complete challenges to level up.</span>
                             </p>
                         </div>
                     )

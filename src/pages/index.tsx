@@ -8,6 +8,8 @@ import { CompletedChallenges } from '../components/CompletedChallenges';
 import { Timer } from '../components/Timer';
 import { ChallengeBox } from '../components/ChallengeBox';
 
+import { TimerProvider } from '../contexts/TimerContext';
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -15,16 +17,18 @@ export default function Home() {
         <title>Home - Stop a Bit</title>
       </Head>
       <ProgressBar />
-      <section>
-        <div>
-          <Profile />
-          <CompletedChallenges />
-          <Timer />
-        </div>
-        <div>
-          <ChallengeBox />
-        </div>
-      </section>
+      <TimerProvider>
+        <section>
+          <div>
+            <Profile />
+            <CompletedChallenges />
+            <Timer />
+          </div>
+          <div>
+            <ChallengeBox />
+          </div>
+        </section>
+      </TimerProvider>
     </ div>
   );
 }

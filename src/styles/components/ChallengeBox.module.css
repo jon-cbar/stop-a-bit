@@ -16,6 +16,15 @@
     display: flex;
     flex-direction: column;
 }
+
+.inactiveChallenge strong {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.inactiveChallenge p span {
+    display: block;
+}
     
 .activatedChallenge header {
     color: var(--blue);

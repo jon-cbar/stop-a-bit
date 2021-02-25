@@ -9,7 +9,7 @@ export function ProgressBar() {
 
     return (
         <div className={styles.progressBar}>
-            <span>0</span>
+            <span>Zero (0)</span>
             <div>
                 <div style={{ width: `${currentRate}%` }} />
                 <span className={styles.currentProgress}
@@ -17,7 +17,7 @@ export function ProgressBar() {
                     {currentProgress}
                 </span>
             </div>
-            <span>{experienceToNextLevel}</span>
+            <span>Next Level ({experienceToNextLevel})</span>
         </div>
     )
 }
