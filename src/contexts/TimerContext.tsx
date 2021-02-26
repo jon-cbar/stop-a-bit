@@ -21,7 +21,7 @@ let timerTimeout: NodeJS.Timeout;
 export function TimerProvider({ children }: TimerProviderProps) {
     const { startNewChallenge } = useContext(ChallengesContext);
 
-    const startTime = 0.05 * 60;
+    const startTime = 25 * 60;
     const [time, setTime] = useState(startTime);
     const minutes = Math.floor(time / 60);
     const seconds = time % 60;
